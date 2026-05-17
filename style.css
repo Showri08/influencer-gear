@@ -1,0 +1,193 @@
+/* font */
+
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+/* header */
+.pri-color{
+    color: #3a3a3a;
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-bottom: 50px;
+
+}
+.nav-list{
+    display: flex;
+   gap: 30px;
+
+}
+.nav-list li{
+    list-style: none;
+    font-size: 16px;
+    font-weight:600;
+    }
+    .nav-head{
+        font-weight: bold;
+        font-size: 24px;
+    }
+/* journey */
+.journey{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 131px;
+}
+.journey-title{
+    font-weight: bold;
+    font-size: 52px;
+    margin-bottom: 16px;
+}
+.journey-description{
+    font-weight: 600;
+    font-size: 16px;
+   margin-bottom: 32px;
+}
+
+.btn-primary{
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color:#e02c6d;
+    border-radius: 20px;
+    padding: 10px 24px;
+   
+
+}
+.img-back{
+    background-image: url("images/Circle-design.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 475px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:475px ;
+    
+}
+.img{
+    
+    width: 440px;
+    height: 414px;
+}
+/* companies */
+.companies{
+    display: flex;
+    justify-content:space-around;
+    width: 1110px;
+    margin: 165px;
+    border-top: 2px solid #C0CCDA1A;
+    border-bottom: 2px solid #C0CCDA1A ;
+    padding: 40px;
+    box-shadow:#C0CCDA1A  ;
+}
