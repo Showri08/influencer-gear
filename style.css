@@ -108,9 +108,20 @@
   font-style: italic;
 }
 /* body */
-/* body{
-  width: 1440px;
-} */
+body{
+ background-color: #aaaaaa;
+ 
+}
+header{
+  max-width: 1440px;
+ margin: 0 auto;
+ padding-left: 100px;
+ padding-right: 100px;
+}
+main{
+  max-width: 1110px;
+ margin: 0 auto;
+}
 
 /* header */
 .pri-color{
@@ -120,8 +131,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-left: 120px;
-    margin-right: 120px;
+    /* margin-left: 120px;
+    margin-right: 120px; */
     margin-bottom: 50px;
 
 }
@@ -134,22 +145,19 @@
     list-style: none;
     font-size: 16px;
     font-weight:600;
-    }
-    .nav-head{
-        font-weight: bold;
-        font-size: 24px;
-    }
+}
+.nav-head{
+  font-weight: bold;
+  font-size: 24px;
+}
 /* journey */
 .journey{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     
 }
-.journey-container{
-  margin-left: 120px;
-  margin-right: 131px;
-}
+
 .journey-title{
     font-weight: bold;
     font-size: 52px;
@@ -181,7 +189,7 @@
     align-items: center;
     justify-content: center;
     height:475px ;
-    margin-right: 165px;
+    /* margin-right: 165px; */
     
 }
 .img{
@@ -203,8 +211,94 @@
     gap: 61px;
     
 }
+/* popular */
+/* main{
+  
+} */
+.popular-title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.popular{
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
+   gap: 30px;
+   margin: 0 auto;
+   max-width: 1024px;
+ 
+}
+.collections{
+  
+  width: 348px;
+  height: 476px;
+  background-color: #ffffff;
+  border-radius: 5px;
+
+}
+.collection-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 17px;
+
+}
+
+.collection-des{
+  padding-left: 17px
+}
+.collection-btn{
+  display: flex;
+  justify-content: end;
+  padding-top: 10px;
+}
+/* products */
+.products{
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 96px;
+  
+}
+.footer{
+  background-color: #0A0826;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  list-style-type: none;
+  padding-inline-start: 0;
+}
+.footer-icons li{
+  list-style: none;
+
+}
+.footer-des{
+  text-align: center;
+}
+
+
+
 @media screen  and (max-width: 576px){
-  .nav-bar{
+header{
+ padding-left: 10px;
+ padding-right: 10px;
+}
+main{
+  padding: 10px;
+}
+  .nav-bar, .products{
     flex-direction: column;
     margin: none;
   }
@@ -252,8 +346,17 @@
   .companies{flex-direction: column;
   margin: none;
   width: auto;
-
-
 }
+.popular{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+.collections{
+  width: 290px;
+}
+.collection-img img{
+  width: 260px;
+}
+
   
 }
