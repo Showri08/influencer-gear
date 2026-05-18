@@ -107,6 +107,10 @@
   font-weight: 900;
   font-style: italic;
 }
+/* body */
+/* body{
+  width: 1440px;
+} */
 
 /* header */
 .pri-color{
@@ -138,9 +142,13 @@
 /* journey */
 .journey{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    gap: 131px;
+    
+}
+.journey-container{
+  margin-left: 120px;
+  margin-right: 131px;
 }
 .journey-title{
     font-weight: bold;
@@ -173,6 +181,7 @@
     align-items: center;
     justify-content: center;
     height:475px ;
+    margin-right: 165px;
     
 }
 .img{
@@ -183,11 +192,68 @@
 /* companies */
 .companies{
     display: flex;
-    justify-content:space-around;
-    width: 1110px;
-    margin: 165px;
+    justify-content:center;
+    align-items: center;
+    max-width: 1110px;
+    margin: 0 auto;
     border-top: 2px solid #C0CCDA1A;
     border-bottom: 2px solid #C0CCDA1A ;
     padding: 40px;
     box-shadow:#C0CCDA1A  ;
+    gap: 61px;
+    
+}
+@media screen  and (max-width: 576px){
+  .nav-bar{
+    flex-direction: column;
+    margin: none;
+  }
+  .journey{
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: none;
+    gap: 20px;
+  }
+  .nav-list{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: none;
+        margin-block-start: 0;
+    margin-block-end: 0;
+        padding-inline-start: 0px;
+
+  }
+  .nav-list li{
+    
+    margin: o auto;
+    padding: none;
+  }
+  .img{
+    width: auto;
+    height: 257px;
+    margin: none;
+    padding: none;
+  }
+  .img-back{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     width: 257px;
+    height: 257px;
+    margin: 0 auto;
+    padding: none;
+
+  }
+  .companies{flex-direction: column;
+  margin: none;
+  width: auto;
+
+
+}
+  
 }
