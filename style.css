@@ -357,6 +357,8 @@ main{
 .collection-img img{
   width: 260px;
 }
-
+.products-img-img{
+  width: 100%;
+}
   
 }
